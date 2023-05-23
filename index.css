@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Axiom2_PPF_DSC_6564_mobile_a31d4e6210.jpg);
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    line-height: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.left{
+    font-family: sans-serif;
+    font-size: x-large;
+    text-shadow:10px 5px 4px black;
+}
+@media screen and (max-width:900px) {
+    .left{
+        display: inline;
+    }
+    .left{
+        width: 100%;
+        line-height: 70px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
+    .s17{
+        display: none;
+    }
+}
+#checkm,#checkr,.checkedr,.checkedm{
+    display: none;
+}
+.middle ul{
+    list-style: none;
+    display: flex;
+}
+.middle ul li a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: x-small;
+    transition: all 1s;
+    font-weight: 600;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+}
+.right ul li a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: x-small;
+    transition: all 1s;
+    font-weight: 600;
+}
+
+@media screen and (max-width:800px) {
+    .listm{
+       height:90vh ;
+       width: 100%;
+       display: flex;
+       position: fixed;
+       top: 70px;
+       left: 100%;
+    }
+}
+@media screen and (max-width:1500px) {
+    .listr{
+       height:90vh ;
+       width: 100%;
+       background: black; 
+       display: flex;
+       flex-direction: column;
+       position: fixed;
+       top: 50px;
+       left: 100%;
+       transition: all 1s;
+    }
+    .checkedr{
+        display: block;
+    }
+    #checkr:checked~ul{
+        left: 70%;
+    }   
+}
+#s1{
+    height: 25vh;
+    width:25%;
+    margin-left: 80px;
+    padding-top: 350px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size:smaller;
+}
+#b1{
+    height: 7vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+}
+article{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Desktop_launches_fa37a114ad.jpg);
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s2{
+    height: 25vh;
+    width:25%;
+    margin-left: 80px;
+    padding-top: 350px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#b2{
+    height: 7vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+}
+
+main{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/One_Web_Iridium_San_Miq_Cyn_6179_Desktop_2_8e25bb16c8.jpg);
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s3{
+    height: 25vh;
+    width:25%;
+    margin-left: 80px;
+    padding-top: 350px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#b3{
+    height: 7vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+}
+
+section{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_3_DSC_1360_desktop_3dcfb70bb0.jpg);
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s4{
+    height: 25vh;
+    width:25%;
+    margin-left: 80px;
+    padding-top: 350px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#b4{
+    height: 7vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+}
+
+aside{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Haven1_Hero_5_2600x1400_a23f540f5f.jpg);
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s5{
+    height: 25vh;
+    width:25%;
+    margin-left: 80px;
+    padding-top: 350px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#b5{
+    height: 7vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+}
+
+figure{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg);
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s6{
+    height: 25vh;
+    width:25%;
+    margin-left: 80px;
+    padding-top: 350px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#b6{
+    height: 7vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+#p71{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+.p19,#p54{
+    text-decoration: none;
+    font-size: xx-small;
+    color:white;
+}
+@media screen and (max-width:900px) {
+    #p71{
+        display: inline;
+    }
+    #p54{
+        height: 50px;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+.x1{
+    text-decoration: none;
+    color: white;
+    font-size: xx-small;
+    font-weight: 800;
+}
+  
